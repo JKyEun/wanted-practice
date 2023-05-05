@@ -23,7 +23,8 @@
     "eject": "react-scripts eject",
     "postinstall": "husky install",
     "format": "prettier --write --cache .",
-    "lint": "eslint --cache ."
+    "lint": "eslint --cache .",
+    "deploy": "npm run build && aws s3 sync build/ s3://s3-deploy-cicd-jkyeun --delete"
   },
   "eslintConfig": {
     "extends": [
