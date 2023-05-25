@@ -1,10 +1,11 @@
 import React from 'react';
-import Test from './components/Test';
+// eslint-disable-next-line import/no-cycle
+import Counter from './components/Counter';
 
 function App() {
   return (
     <div className="App">
-      <Test />
+      <Counter />
     </div>
   );
 }

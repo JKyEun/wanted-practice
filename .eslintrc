@@ -55,6 +55,9 @@
       {
         "labelAttributes": ["htmlFor"]
       }
-    ]
+    ],
+    "react/button-has-type": "off",
+    "operator-assignment": "off",
+    "no-cycle": "off"
   }
 }
